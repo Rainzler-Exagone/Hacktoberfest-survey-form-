@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="title">
+    Survey Form
+  </h1>
+  <p id="description"> we collect this data in oreder to facilitate the delivery of our digitale products to you, keep in mind that the informations shared in this survey form are highly sensitive for us </p>
+  <form id="survey-form">
+    <label id="name-label">Enter your name :  </label><br>
+    <input type="text" id="name" placeholder=" John Doe" required>
+    </input><br>
+    <label id="email-label">Enter your Email : </label><br>
+    <input type="email" id="email" placeholder=" john@example.com"  required>
+    </input><br>
+    <label id="number-label">Enter number : </label><br>
+    <input type="number" id="number" placeholder=" 10" min="0" max="10000">
+    </input><br>
+    <select id="dropdown">
+      <option>Programming Beginner</option>
+      <option>Programming intermediate</option>
+      <option>Programming Expert</option>
+    </select><br>
+    
+      <label id="job-reference">Job Reference:</label><br>
+      <input type="radio" name="job-value" value="Front-end">Front-end</input>
+      <input type="radio" name="job-value" value="Back-end" >Back-end</input>
+      <input type="radio" name="job-value" value="Fullstack">Fullstack</input>
+    
+
+    <label id="languages" > Languages:</label><br>
+  <input type="checkbox" value="C++">C++</input><br>
+  <input type="checkbox" value="Java">Java</input><br>
+  <input type="checkbox" value="Python">Python</input><br>
+  <textarea >in Hacktoberfest we motivate our colleages to give their best and contribute to the coding community </textarea><br>
+  <button type="submit" id="submit">submit</button>
+  </form>
+  
+</body>
+</html>
